@@ -1,0 +1,110 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3631204c-a459-4b44-a0c3-4242398cf9ed": {
+        "id": "3631204c-a459-4b44-a0c3-4242398cf9ed",
+        "parent": null,
+        "name": "testLondn",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ec03ab07-ebee-49d9-84da-3f77b9bf10fb"
+        ],
+        "isRemovable": false,
+        "filePath": "testLondn"
+      },
+      "ec03ab07-ebee-49d9-84da-3f77b9bf10fb": {
+        "id": "ec03ab07-ebee-49d9-84da-3f77b9bf10fb",
+        "parent": "3631204c-a459-4b44-a0c3-4242398cf9ed",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testLondn/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 192,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuWest2testLonindunilqatstget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "3631204c-a459-4b44-a0c3-4242398cf9ed",
+    "openFiles": [
+      "ec03ab07-ebee-49d9-84da-3f77b9bf10fb"
+    ],
+    "currentFileId": "ec03ab07-ebee-49d9-84da-3f77b9bf10fb",
+    "resources": {
+      "apigeuWest2testLonindunilqatstget": {
+        "name": "apigeuWest2testLonindunilqatstget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-west-2",
+          "apiMode": 1,
+          "apiName": "testLon",
+          "apiId": "3rvx3xg7o0",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "7v1950bvx3",
+          "existingResources": {
+            "/indunil/qa": "65kq3v",
+            "/": "7v1950bvx3",
+            "/indunil/qa/tst": "8mkz3f",
+            "/indunil": "mb6p7k"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/indunil/qa/tst",
+          "resourceName": "indunil/qa/tst",
+          "resourceId": "8mkz3f",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test1",
+          "stageDeploymentId": "qj6oj5",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testLondn",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579680331244
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testLondn",
+      "url": "https://github.com/Indunil1992/testLondn"
+    }
+  }
+}
